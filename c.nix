@@ -5,6 +5,7 @@
 pkgs.dockerTools.buildImage {
   name = "test1234";
   # tag = "latest";
+  created = "now";
   config = {
     # Cmd = [ "${pkgs.curl}/bin/curl" "--version" ];
     # Cmd = [ "${pkgs.coreutils}/bin/tail" "-f" "/dev/null" ];
